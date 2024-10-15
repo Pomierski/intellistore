@@ -1,4 +1,10 @@
-## Have you ever found yourself thinking, Gee, I wish I could create dynamic, type-safe updaters and my IDE will add "set" prefix by itself? Well, you're in luck!
+# Intellistore
+
+Have you ever found yourself thinking
+
+> Gee, I wish I could create dynamic, type-safe updaters and my IDE will add "set" prefix by itself?
+
+Well, you're in luck!
 
 This small library was born from the relentless monotony of typing [myState, setMyState] in React a million times. Curiosity met TypeScript, and now you have magically generated, type-safe updaters ✨
 
@@ -26,7 +32,7 @@ const myStore = createStore({
   age: undefined,
 });
 
-// And the magic beggins
+// And the magic begins
 const { state, setName, setAge } = myStore;
 
 setName("Name");
